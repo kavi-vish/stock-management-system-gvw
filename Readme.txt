@@ -1,28 +1,65 @@
-DOWNLOAD "FREE SOURCE CODE"
-FIRST DOWNLOAD
+# 📦 Stock Management System – GVW
 
-1.XAMPP
+## 📌 Overview
+The Stock Management System (GVW) is a web-based application designed to manage inventory, sales, and orders efficiently. It helps businesses track stock levels, handle customer orders, and monitor financial transactions in real time.
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+---
 
-3.SOURCE CODE 
-     "STOCK MANAGEMENT SYSTEM"
+## 🚀 Features
 
-4. Download the zip file/ download winrar
+- Dashboard Overview
+- Product Management (Add, Edit, Delete)
+- Order Management with multiple items
+- Item-level Discount Support
+- Billing System (Subtotal, VAT, Grand Total)
+- Payment Tracking (Paid / Due)
+- Customer Management
+- Stock Auto Update
+- Invoice Generation (Printable)
 
-5. Extract the file and copy "STOCK MANAGEMENT SYSTEM" folder
+---
 
-6.Paste inside root directory/ local disk C: paste: (for xampp/htdocs, 
+## 🛠️ Technologies Used
 
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
+Frontend:
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript / jQuery
 
-8. Create a database with name stock
+Backend:
+- PHP (Core PHP)
 
-6. Import stock.sql file(given inside the zip package in SQL file folder)
+Database:
+- MySQL
 
-7.Run the script http://localhost/stockmanagementsystem 
+---
+
+## ⚙️ Installation Guide
+
+1. Download or clone the project
+2. Move project to htdocs (XAMPP) or www (WAMP)
+3. Import the SQL file into phpMyAdmin
+4. Configure database in:
+   php_action/db_connect.php
+
+5. Run in browser:
+   http://localhost/your-project-folder
 
 
-Admin
-username: admin
-password: password
+## 📈 Future Improvements
+
+- Role-based login
+- Reports & analytics
+- Barcode system
+- Mobile UI improvements
+
+---
+
+## 👨‍💻 Author
+
+Kavindu Vishwajith
+
+
+
+Free to use for learning and development.
